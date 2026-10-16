@@ -1,0 +1,2 @@
+# Extra packages needed only to build the standalone .exe
+pyinstaller>=6.0

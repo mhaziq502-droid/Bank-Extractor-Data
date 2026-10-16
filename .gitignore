@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# PyInstaller build output
+build/
+dist/
+*.manifest
+
+# Generated reports
+clean_bank_data*.xlsx
+clean_bank_data*.csv
+
+# OS
+.DS_Store
+Thumbs.db
