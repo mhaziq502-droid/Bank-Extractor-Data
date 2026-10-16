@@ -1,0 +1,92 @@
+# ---------------------------------------------------------------------------
+# Category keyword map  -  EDIT THIS FILE to tune how transactions are categorized.
+#
+# How it works:
+#   * Each category lists keywords (case-insensitive substring match) that are
+#     checked against the transaction's Counterparty / Description.
+#   * The FIRST category (top to bottom) with a matching keyword wins, so order
+#     matters: put more specific categories above more general ones.
+#   * "P2P / Individuals" and "Profit Earned" are usually assigned by the
+#     classifier (method/type) rather than keywords, but keywords still help.
+#
+# Note: account-holder own-name transfers and own-pocket (Internal) movements
+# are detected by the classifier, NOT here, so they never land in a spending
+# category.
+# ---------------------------------------------------------------------------
+
+Food & Dining:
+  - restoran
+  - warung
+  - cafe
+  - kfc
+  - 4 fingers
+  - 4fingers
+  - texas
+  - bakery
+  - baker's cottage
+  - makdah
+  - andaki food
+  - family fried chicken
+  - a1 food
+  - mantap sempoi
+  - sofea basha
+  - nasi kandar
+  - bistro
+  - al-fariz
+  - al fariz
+
+Groceries & Convenience:
+  - kk super mart
+  - kk super
+  - emart
+  - 7-eleven
+  - 7 eleven
+  - 7eleven
+  - pasar mini
+  - pasar
+  - mini market
+  - ramjan
+  - psry
+  - ban soon
+
+Fuel:
+  - shell
+  - petronas
+  - pss
+  - petron
+  - caltex
+  - bhp
+
+Vehicle:
+  - motor
+  - syarikat motor
+  - workshop
+  - bengkel
+  - tayar
+  - servis kereta
+
+Laundry:
+  - laundry
+  - dobi
+  - simple laundry
+
+Shopping & Household:
+  - decathlon
+  - ninso
+  - mr diy
+  - mr. diy
+  - ecoshops
+  - ecoshop
+  - mydin
+  - household
+  - zxm enterprise
+  - laitah
+  - cacabela
+  - asad permata
+  - mahmoodeli
+  - fortunatecup
+
+# These two are mostly set by the classifier, but keywords act as a fallback.
+P2P / Individuals: []
+Profit Earned:
+  - profit earned
